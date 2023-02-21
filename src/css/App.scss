@@ -1,0 +1,14 @@
+@use './chess.scss';
+
+.app{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: #312e2b;
+}
+

@@ -1,0 +1,60 @@
+$black-cell: #769656;
+$white-cell: #eeeed2;
+.board {
+    width: calc(64px * 8);
+    height: calc(64px * 8);
+    display: flex;
+    flex-wrap: wrap;
+    .cell{
+        width: 64px;
+        height: 64px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 62px;
+            height: 62px;
+            position: relative;
+        }
+    }
+    .black{
+        background-color: $black-cell;
+    }
+    .white{
+        background-color: $white-cell;
+    }
+    .selected{
+        box-shadow: inset 200px 200px 300px 199px rgba(157,255,0,0.62);
+    }
+    
+}
+.available{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0, 0.17);
+}
+
+.ontake{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 8px solid rgb(0, 0, 0, 0.17);
+}
+
+.player{
+    width: 100%;
+    font-size: 20px;
+    font-family: Roboto;
+    color: #eeeed2;
+    padding: 10px;
+}
+
+.Lost{
+    width: 100%;
+    height: 100px;
+}
+
+
+
+
